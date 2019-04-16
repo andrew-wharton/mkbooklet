@@ -260,7 +260,7 @@ class Mkbooklet(object):
 
     @staticmethod
     def open_booklet(filename):
-        os.system('xdg-open {}'.format(filename))
+        os.system('open {}'.format(filename))
 
     def run(self):
         self.parse_args()
